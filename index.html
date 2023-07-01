@@ -15,6 +15,7 @@
       height: 100vh;
       opacity: 0;
       animation: fadeIn 1s ease-in-out forwards;
+      overflow: hidden;
     }
 
     @keyframes fadeIn {
@@ -165,6 +166,10 @@
     }
 
     @media (max-width: 480px) {
+      .container {
+        max-width: 300px;
+      }
+
       h1 {
         font-size: 24px;
       }
@@ -217,7 +222,9 @@
           "Why did the bicycle fall over? It was two-tired!",
           "What did the grape say when it got stepped on? Nothing, it just let out a little wine!",
           "What's orange and sounds like a parrot? A carrot!",
-          "Why did the tomato turn red? Because it saw the salad dressing!", "Why don't scientists trust atoms? Because they make up everything!",
+          "Why did the tomato turn red? Because it saw the salad dressing!",
+          // Add more jokes here...
+          "Why don't scientists trust atoms? Because they make up everything!",
           "Did you hear about the mathematician who's afraid of negative numbers? He will stop at nothing to avoid them!",
           "Why was the math book sad? Because it had too many problems!",
           "What did the left eye say to the right eye? Between you and me, something smells!",
@@ -228,23 +235,18 @@
           "What's orange and sounds like a parrot? A carrot!",
           "Why did the tomato turn red? Because it saw the salad dressing!",
           "What do you call a bear with no teeth? A gummy bear!",
-          "Why don't you ever see elephants hiding in trees? Because they're so good at it!",
+          "Why don't eggs tell jokes? They might crack up!",
+          "Why don't scientists trust atoms? Because they make up everything!",
           "Why don't skeletons fight each other? They don't have the guts!",
-          "What's brown and sticky? A stick!",
-          "How do you organize a space party? You planet!",
-          "What do you call a fake noodle? An impasta!",
-          "Why couldn't the bicycle find its way home? It lost its bearings!",
-          "Why did the golfer bring two pairs of pants? In case he got a hole in one!",
-          "Why don't eggs tell jokes? Because they might crack up!",
-          "What do you get if you cross a snowman and a vampire? Frostbite!",
           "Why did the scarecrow win an award? Because he was outstanding in his field!",
-          "What's brown and sticky? A stick!",
-          "How do you make a tissue dance? You put a little boogie in it!",
-          "Why don't skeletons fight each other? They don't have the guts!",
           "What did one hat say to the other hat? You stay here, I'll go on ahead!",
           "How does a train eat? It goes chew, chew!",
+          "Why was the math book sad? Because it had too many problems!",
           "What did the left eye say to the right eye? Between you and me, something smells!",
+          // Add more jokes here
           "Why did the math book look sad? Because it had too many problems!",
+          "Why don't eggs tell jokes? Because they might crack up!",
+          "Why did the bicycle fall over? It was two-tired!",
           "What do you call a bear with no teeth? A gummy bear!",
           "What do you call fake spaghetti? An impasta!",
           "Why did the tomato turn red? Because it saw the salad dressing!",
@@ -297,7 +299,35 @@
           "Why don't skeletons fight each other? They don't have the guts!",
           "What did one hat say to the other hat? You stay here, I'll go on ahead!",
           "How does a train eat? It goes chew, chew!",
-          // Add more jokes here...
+          "Why was the math book sad? Because it had too many problems!",
+          "What did the left eye say to the right eye? Between you and me, something smells!",
+          "What do you call a fake noodle? An impasta!",
+          "What's orange and sounds like a parrot? A carrot!",
+          "Why don't eggs tell jokes? They might crack up!",
+          "Why did the bicycle fall over? It was two-tired!",
+          "What do you call a bear with no teeth? A gummy bear!",
+          "What do you call fake spaghetti? An impasta!",
+          "Why did the tomato turn red? Because it saw the salad dressing!",
+          "Why don't skeletons fight each other? They don't have the guts!",
+          "How do you organize a space party? You planet!",
+          "What do you call a fake noodle? An impasta!",
+          "Why couldn't the bicycle find its way home? It lost its bearings!",
+          "Why did the golfer bring two pairs of pants? In case he got a hole in one!",
+          "Why did the scarecrow win an award? Because he was outstanding in his field!",
+          "What do you call a bear with no teeth? A gummy bear!",
+          "How does a penguin build its house? Igloos it together!",
+          "Why don't you ever see elephants hiding in trees? Because they're so good at it!",
+          "Why did the tomato turn red? Because it saw the salad dressing!",
+          "How do you make a tissue dance? You put a little boogie in it!",
+          "Why did the bicycle fall over? It was two-tired!",
+          "What do you get if you cross a snowman and a vampire? Frostbite!",
+          "What do you call a bear with no teeth? A gummy bear!",
+          "Why don't scientists trust atoms? Because they make up everything!",
+          "Why did the scarecrow win an award? Because he was outstanding in his field!",
+          "What's brown and sticky? A stick!",
+          "Why don't skeletons fight each other? They don't have the guts!",
+          "What did one hat say to the other hat? You stay here, I'll go on ahead!",
+          "How does a train eat? It goes chew, chew!"
         ];
 
         var jokeContainer = document.getElementById("jokeContainer");
